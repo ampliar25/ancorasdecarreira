@@ -1,0 +1,14 @@
+# Criar novo projeto Next.js com TypeScript
+npx create-next-app@latest career-assessment --typescript --tailwind --eslint
+
+# Navegar para o diretório do projeto
+cd career-assessment
+
+# Instalar dependências necessárias
+npm install @radix-ui/react-slot @radix-ui/react-tabs class-variance-authority clsx tailwind-merge lucide-react
+
+# Instalar shadcn/ui
+npx shadcn-ui@latest init
+
+# Instalar os componentes necessários
+npx shadcn-ui@latest add card
